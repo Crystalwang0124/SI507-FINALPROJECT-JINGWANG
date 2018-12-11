@@ -401,8 +401,8 @@ def get_restaurants_sorted(sortby='ratings', sortorder='desc'):
     rev = (sortorder == 'desc')
     results = get_top50_form()
     sorted_list = sorted(results, key=lambda row: row[sortcol], reverse=rev)
-    print(results[0])
-    print(sorted_list[0])
+    #print(results[0])
+    #print(sorted_list[0])
     return sorted_list
 
 
